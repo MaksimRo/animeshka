@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: rgb(17, 99, 134);
+}
+
+header{
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(18, 1, 43, 0.568), rgba(0, 0, 0, 0));
+    padding-top: 50px;
+}
+
+main{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 50px;
+}
+form{
+    width: 400px;
+    display: flex;
+    height: 60px;      
+}
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+.search{
+    width: 50%;
+}
+.button{
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+
+}
+.button:hover{
+    cursor: help;
+    background-color: rgb(24, 226, 226);
+    color:royalblue;
+}
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: help;
+}

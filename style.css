@@ -1,0 +1,163 @@
+main{
+    background-color: rgb(241, 241, 241);/*Цвет фона */
+    
+    width: 100%;height: 2000px;/*ширина, высота*/
+    color: rgb(0, 0, 0);/*цвет текста*/
+    font-size: 70px;/*размер текста*/
+    text-align: center;
+    display:flex;
+}
+.l1{
+    background-color: antiquewhite;
+    width: 25%;
+    height: 600px;
+    font-size: 40px;
+}
+.l2{
+    background-color: rgb(200, 255, 0);
+    width: 25%;
+    height: 600px;
+    font-size: 40px;
+}
+.l3{
+    background-color: rgb(0, 255, 157);
+    width: 25%;
+    font-size: 40px;
+    height: 600px;
+}
+.l4{
+    background-color: rgb(255, 60, 0);
+    width: 25%;
+    height: 600px;
+    font-size: 40px;
+}
+h1{
+    font-size: 40px;
+    text-align: left;
+    margin: 0px;
+
+}
+h2{
+    font-size: 40px;
+    text-align: left;
+    margin: 0px;
+
+}
+h3{
+    font-size: 40px;
+    text-align: left;
+    margin: 0px;
+
+}
+h4{
+    font-size: 40px;
+    text-align: left;
+    margin: 0px;
+
+}
+.l4 li{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    width: 70%;
+    height: 100px;
+}
+.l4 li:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.l3 li{
+    background-color: rgb(255, 123, 0);
+    color: rgb(0, 0, 0);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    width: 70%;
+    height: 100px;
+    font-size: 25px;
+}
+.l3 li:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.l2 ul{
+    background-color: rgb(43, 255, 0);
+    color: rgb(0, 0, 0);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    width: 70%;
+    height: 100px;
+}
+.l2 li:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.l1 ul{
+    background-color: rgb(89, 0, 255);
+    color: rgb(0, 0, 0);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    width: 70%;
+    height: 100px;
+}
+.l1 li:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: brown;
+}
+.nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid white;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: azure;
+    color: black;
+}
+.button{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: rgb(255, 0, 0);
+}
+.b1{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 100px black;
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px black;
+}
+.b1:active{
+    background-color: aquamarine;
+}
